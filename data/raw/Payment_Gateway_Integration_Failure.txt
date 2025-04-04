@@ -1,0 +1,9 @@
+Conversation ID: TECH_033
+Category: Technical Support
+Sentiment: Urgent | Priority: Critical
+Customer: "We're losing sales! Our payment gateway stopped working this morning. Customers are getting 'SSL Handshake Failed' errors when checking out. This is costing us thousands."
+Agent: "Hello! Let's investigate immediately. Could you share the output from openssl s_client -connect yourgateway.com:443?"
+Customer: "Here it is: [log output] It shows 'TLS alert protocol version' error. We haven't changed anything on our end!"
+Agent: "Thank you! Our system requires TLS 1.3, but your server supports only up to TLS 1.2. Upgrading the protocol will resolve the authentication error."
+Customer: "Ah! Our hosting provider must have downgraded something during maintenance. I'll get them to fix it ASAP. Thanks for the quick diagnosis!"
+Agent: "Happy to help! Don't hesitate to reach out for future issues. Goodbye!" 

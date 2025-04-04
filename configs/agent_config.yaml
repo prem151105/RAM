@@ -1,0 +1,60 @@
+# Agent Configuration
+
+# LLM Settings
+llm:
+  model: "gpt-4"  # or "gpt-3.5-turbo" for testing
+  temperature: 0.7
+  max_tokens: 1000
+  top_p: 0.9
+
+# Memory Settings
+memory:
+  max_size: 10000  # Maximum number of experiences to store
+  embedding_model: "all-MiniLM-L6-v2"  # Sentence transformer model
+  similarity_threshold: 0.8  # Minimum similarity score for retrieval
+  update_interval: 100  # Number of tasks before memory update
+
+# Router Settings
+router:
+  confidence_threshold: 0.8  # Minimum confidence for direct execution
+  split_threshold: 0.6  # Confidence threshold for task splitting
+  max_splits: 3  # Maximum number of subtasks
+
+# Executor Settings
+executor:
+  timeout: 300  # Maximum execution time in seconds
+  retry_attempts: 3  # Number of retry attempts
+  batch_size: 10  # Number of tasks to process in parallel
+
+# Specialized Agents
+specialized_agents:
+  account_sync:
+    enabled: true
+    priority: 1
+    expertise: ["account", "synchronization", "login"]
+  
+  device_compat:
+    enabled: true
+    priority: 2
+    expertise: ["device", "compatibility", "hardware"]
+  
+  network_issue:
+    enabled: true
+    priority: 3
+    expertise: ["network", "connectivity", "bandwidth"]
+  
+  payment_gateway:
+    enabled: true
+    priority: 4
+    expertise: ["payment", "transaction", "billing"]
+  
+  software_install:
+    enabled: true
+    priority: 5
+    expertise: ["installation", "update", "configuration"]
+
+# Performance Monitoring
+monitoring:
+  metrics_interval: 60  # Seconds between metric updates
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  enable_tracing: true  # Enable detailed performance tracing 

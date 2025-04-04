@@ -1,0 +1,71 @@
+# Network Configuration
+
+# Network Topology
+topology:
+  type: "dynamic"  # static or dynamic
+  max_agents: 10  # Maximum number of agents in network
+  min_connections: 2  # Minimum connections per agent
+  max_connections: 5  # Maximum connections per agent
+
+# Weight Management
+weights:
+  initial_weight: 0.5  # Initial connection weight
+  learning_rate: 0.1  # Weight update rate
+  decay_factor: 0.95  # Weight decay over time
+  min_weight: 0.1  # Minimum connection weight
+  max_weight: 1.0  # Maximum connection weight
+
+# Task Distribution
+distribution:
+  load_balancing: true  # Enable load balancing
+  max_queue_size: 100  # Maximum tasks in agent queue
+  timeout: 300  # Task timeout in seconds
+  retry_delay: 60  # Delay between retries in seconds
+
+# Communication
+communication:
+  protocol: "http"  # Communication protocol
+  timeout: 30  # Communication timeout in seconds
+  retry_attempts: 3  # Number of communication retries
+  batch_size: 10  # Batch size for communication
+
+# Performance Settings
+performance:
+  max_concurrent_tasks: 50  # Maximum concurrent tasks
+  task_timeout: 600  # Global task timeout in seconds
+  cleanup_interval: 3600  # Cleanup interval in seconds
+  metrics_interval: 60  # Metrics collection interval
+
+# Specialized Networks
+specialized_networks:
+  account_sync:
+    enabled: true
+    agents: ["account_sync_1", "account_sync_2"]
+    weight_threshold: 0.7
+  
+  device_compat:
+    enabled: true
+    agents: ["device_compat_1", "device_compat_2"]
+    weight_threshold: 0.7
+  
+  network_issue:
+    enabled: true
+    agents: ["network_issue_1", "network_issue_2"]
+    weight_threshold: 0.7
+  
+  payment_gateway:
+    enabled: true
+    agents: ["payment_gateway_1", "payment_gateway_2"]
+    weight_threshold: 0.7
+  
+  software_install:
+    enabled: true
+    agents: ["software_install_1", "software_install_2"]
+    weight_threshold: 0.7
+
+# Monitoring
+monitoring:
+  enable_metrics: true
+  enable_logging: true
+  log_level: "INFO"
+  metrics_export_interval: 300  # Export metrics every 5 minutes 

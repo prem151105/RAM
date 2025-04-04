@@ -1,0 +1,17 @@
+﻿Ticket ID, Issue Category, Sentiment, Priority, Solution, Resolution Status, Date of Resolution
+TECH_021, Software Installation Failure, Frustrated, High, Disable antivirus and retry installation, Resolved, 2025-03-17
+TECH_022, Software Installation Failure, Frustrated, High, Download from direct link, Resolved, 2025-03-17
+TECH_023, Software Installation Failure, Frustrated, High, Update to latest version of antivirus, Resolved, 2025-03-17
+TECH_024, Network Connectivity Issue, Confused, Medium, Check app permissions for Local Network, Resolved, 2025-03-16
+TECH_025, Network Connectivity Issue, Confused, Medium, Clear app cache and relog, Resolved, 2025-03-16
+TECH_026, Network Connectivity Issue, Confused, Medium, Reinstall the app, Resolved, 2025-03-16
+TECH_027, Device Compatibility Error, Annoyed, Critical, Rollback app to version 4.9, Resolved, 2025-03-15
+TECH_028, Device Compatibility Error, Annoyed, Critical, Offer a discount on a compatible thermostat, Resolved, 2025-03-15
+TECH_029, Device Compatibility Error, Annoyed, Critical, Contact thermostat support for an update, Resolved, 2025-03-15
+TECH_030, Account Synchronization Bug, Anxious, High, Reset sync token manually, Resolved, 2025-03-14
+TECH_031, Account Synchronization Bug, Anxious, High, Force Full Sync on both devices, Resolved, 2025-03-14
+TECH_032, Account Synchronization Bug, Anxious, High, Clear app cache and relog, Resolved, 2025-03-14
+TECH_033, Payment Gateway Integration Failure, Urgent, Critical, Upgrade server to TLS 1.3, Resolved, 2025-03-13
+TECH_034, Payment Gateway Integration Failure, Urgent, Critical, Verify SSL certificate settings, Resolved, 2025-03-13
+TECH_035, Payment Gateway Integration Failure, Urgent, Critical, Use a different gateway API, Resolved, 2025-03-13
+TECH_036, Payment Gateway Integration Failure, Urgent, Critical, Check server firewall settings, Resolved, 2025-03-13

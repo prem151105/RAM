@@ -1,0 +1,9 @@
+Conversation ID: TECH_024
+Category: Technical Support
+Sentiment: Confused | Priority: Medium
+Customer: "Hello, I can't connect to my smart home devices anymore through your app. It was working fine yesterday, but now it says 'No devices found on local network.' I've tried restarting my phone."
+Agent: "Hi! Thanks for contacting us. Let's check the app's network permissions. Go to Settings > Apps > [App Name] > Permissions. Is 'Local Network' enabled?"
+Customer: "Oh, it's set to 'Ask every time' but I haven't seen any prompts. Should I change it to 'Always allow'?"
+Agent: "No worries! Please clear the app cache: Settings > Storage > Clear Cache. Then log in again. Does that help?"
+Customer: "That fixed it! Devices are showing up now. Strange that it suddenly stopped working though."
+Agent: "Glad to hear it! A recent update may have reset permissions. We'll flag this to our dev team. Cheers!" 

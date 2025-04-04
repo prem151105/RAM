@@ -1,0 +1,9 @@
+Conversation ID: TECH_027
+Category: Technical Support
+Sentiment: Annoyed | Priority: Critical
+Customer: "Your latest app update doesn't work with my smart thermostat anymore! It keeps saying 'Device not supported' when I try to adjust the temperature. I paid good money for this system!"
+Agent: "Hello! I apologize for the trouble. Could you confirm your phone model and app version?"
+Customer: "iPhone 13, iOS 16.2, app version 5.1. The thermostat is a HT-2019 model. It worked fine until the update two days ago."
+Agent: "Thank you for clarifying. Unfortunately, HT-2019 isn't supported in versions after 5.0. We can roll back your app to 4.9 or offer a discount on a compatible thermostat. What works best for you?"
+Customer: "I'd rather get the discount and upgrade. The old thermostat has other issues anyway."
+Agent: "Understood. I'll email the discount code shortly. We appreciate your patience!" 

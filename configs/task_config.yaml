@@ -1,0 +1,75 @@
+# Task Configuration
+
+# Task Types
+task_types:
+  account_sync:
+    enabled: true
+    priority: 1
+    timeout: 300  # seconds
+    retry_attempts: 3
+  
+  device_compat:
+    enabled: true
+    priority: 2
+    timeout: 300
+    retry_attempts: 3
+  
+  network_issue:
+    enabled: true
+    priority: 3
+    timeout: 300
+    retry_attempts: 3
+  
+  payment_gateway:
+    enabled: true
+    priority: 4
+    timeout: 300
+    retry_attempts: 3
+  
+  software_install:
+    enabled: true
+    priority: 5
+    timeout: 300
+    retry_attempts: 3
+
+# Processing Settings
+processing:
+  batch_size: 10  # Number of tasks to process in parallel
+  max_queue_size: 100  # Maximum tasks in processing queue
+  cleanup_interval: 3600  # Cleanup interval in seconds
+  retry_delay: 60  # Delay between retries in seconds
+
+# Task Validation
+validation:
+  required_fields: ["task_id", "type", "description"]
+  max_description_length: 1000
+  min_description_length: 10
+  allowed_task_types: ["account_sync", "device_compat", "network_issue", "payment_gateway", "software_install"]
+
+# Task Routing
+routing:
+  default_route: "general_support"
+  route_timeout: 30  # seconds
+  max_route_attempts: 3
+  enable_priority_routing: true
+
+# Task Monitoring
+monitoring:
+  enable_metrics: true
+  metrics_interval: 60  # seconds
+  log_level: "INFO"
+  enable_tracing: true
+
+# Task Results
+results:
+  max_storage_duration: 604800  # 7 days in seconds
+  compression_enabled: true
+  format: "json"
+  include_metadata: true
+
+# Task History
+history:
+  max_history_size: 1000
+  retention_period: 2592000  # 30 days in seconds
+  enable_analytics: true
+  export_interval: 86400  # 24 hours in seconds 

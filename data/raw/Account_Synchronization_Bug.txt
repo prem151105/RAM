@@ -1,0 +1,9 @@
+Conversation ID: TECH_030
+Category: Technical Support
+Sentiment: Anxious | Priority: High
+Customer: "Help! My account data keeps showing differently on my phone versus my laptop. My saved preferences on one device don't appear on the other, and some of my data seems to be missing entirely!"
+Agent: "I understand how concerning that is. Let's fix your sync issues. When did you first notice the discrepancy between devices?"
+Customer: "About two days ago. I made several changes on my laptop, and they never appeared on my phone app. I tried logging out and back in, but that didn't help."
+Agent: "Thanks for that information. It sounds like a sync token issue. I'll reset your account's sync token from our end. After that, please force a full sync: Go to Settings > Account > Sync Options > Force Full Sync on both devices."
+Customer: "I just did the forced sync and everything is showing correctly now! Thank you!"
+Agent: "Excellent! Your sync issue is resolved. We're investigating why some accounts experienced this problem. Is there anything else I can help with today?" 
